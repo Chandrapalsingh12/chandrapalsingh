@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="slider/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="hamburger" id="hameburg">
+            <svg class="ham hamRotate ham1" id="hamval" viewBox="0 0 100 100" width="80">
+                <path class="line top"
+                    d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                <path class="line middle" d="m 30,50 h 40" />
+                <!-- <path class="line bottom"
+                    d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" /> -->
+            </svg>
+        </div>
+
+
+        <div class="section" onclick=allFun()>
+            <div class="nav_bar">
+                <div class="logo"><a href="#" id="home1">MyProt</a></div>
+                <div class="nav_link" id="nav_link">
+                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#" id="about">About</a></li>
+                    <li><a href="#" id="project">Project</a></li>
+                    <li><a href="#" id="contact">Contact</a></li>
+                </div>
+            </div>
+            <!-- Page 1  -->
+            <div class="page1" id="page1">
+                <div class="p1_left">
+                    <img src="images/user.png" alt="image">
+                </div>
+                <div class="p1_right">
+                    <div class="name">
+                        <span>
+                            <p id="first">Hi I’am</p>Chandrapal Singh
+                        </span>
+                    </div>
+                    <div class="wrapper">
+                        <div class="static-txt">A</div>
+                        <ul class="dynamic-txts">
+                            <li><span>Data Scientist</span></li>
+                            <li><span>Designer</span></li>
+                            <li><span>Developer</span></li>
+                            <li><span>Freelancer</span></li>
+                        </ul>
+                    </div>
+                    <div class="desc">
+                        <span id="dec">I am passionate about my work. Because I love what I do,
+                            I have a steady source of motivation that drives me to do my best.
+                            In my last job, this passion led me to challenge myself daily and learn.</span>
+                    </div>
+                    <button class="p1_btn" id="about_me">
+                        <p> More About Me</p> <img src="images/Double Right.png" alt="right">
+                    </button>
+                </div>
+
+            </div>
+            <!-- End Page 1 -->
+
+
+            <!-- About Page -->
+            <div class="page2" id="page2">
+                <div class="p2_left">
+                    <span id="heading_about">Hi It's Me Chandrapal</span>
+                    <span id="desc_about">I am software Developer. I Completed my Bacholer's Degree in stream of
+                        Computer Science with
+                        highly skilled in designing & deploying computer applications and proficient in building,
+                        testing & debugging the code. Adept at collaborating with cross-functional teams to produce
+                        software designs and formulating program specifications while ensuring compliance with the
+                        company's policies & procedures. and now i am studying for DataScience </span>
+                </div>
+                <div class="p2_right">
+                    <img src="images/about1.svg" alt="about">
+                </div>
+
+
+            </div>
+            <!-- End About Page -->
+
+
+
+            <!-- Project Page -->
+            <div class="page3" id="page3">
+                <div class="p3_heading">
+                    <span>My Projects</span>
+                </div>
+                <div class="project_section slides">
+
+                    <div class="project_card">
+                        <div class="project_image">
+                            <img src="images/project_image.png" alt="projectImage">
+                        </div>
+                        <div class="project_heading">
+                            <span>Auto Login System</span>
+                        </div>
+                        <div class="project_desc">
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis iusto perspiciatis
+                                sapiente.</span>
+                        </div>
+                        <div class="project_visit">
+                            <button>Visit </button>
+                        </div>
+                    </div>
+                    <div class="project_card">
+                        <div class="project_image">
+                            <img src="images/project_image.png" alt="projectImage">
+                        </div>
+                        <div class="project_heading">
+                            <span>Auto Login System</span>
+                        </div>
+                        <div class="project_desc">
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis iusto perspiciatis
+                                sapiente.</span>
+                        </div>
+                        <div class="project_visit">
+                            <button>Visit </button>
+                        </div>
+                    </div>
+                    <div class="project_card">
+                        <div class="project_image">
+                            <img src="images/project_image.png" alt="projectImage">
+                        </div>
+                        <div class="project_heading">
+                            <span>Auto Login System</span>
+                        </div>
+                        <div class="project_desc">
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis iusto perspiciatis
+                                sapiente.</span>
+                        </div>
+                        <div class="project_visit">
+                            <button>Visit </button>
+                        </div>
+                    </div>
+                    <div class="project_card">
+                        <div class="project_image">
+                            <img src="images/project_image.png" alt="projectImage">
+                        </div>
+                        <div class="project_heading">
+                            <span>Auto Login System</span>
+                        </div>
+                        <div class="project_desc">
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis iusto perspiciatis
+                                sapiente.</span>
+                        </div>
+                        <div class="project_visit">
+                            <button>Visit </button>
+                        </div>
+                    </div>
+                    <div class="project_card">
+                        <div class="project_image">
+                            <img src="images/project_image.png" alt="projectImage">
+                        </div>
+                        <div class="project_heading">
+                            <span>Auto Login System</span>
+                        </div>
+                        <div class="project_desc">
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis iusto perspiciatis
+                                sapiente.</span>
+                        </div>
+                        <div class="project_visit">
+                            <button>Visit </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Project Page -->
+
+
+
+            <!-- Contact Page -->
+            <div class="page4" id="page4">
+                <div class="p3_heading">
+                    <span>Contact Page</span>
+                </div>
+
+                <div class="contact_section">
+                    <div class="contact_img">
+                        <img src="images/contact.svg" alt="contact">
+                    </div>
+                    <div class="contact_page">
+                        <form>
+                            <input type="text" placeholder="Name..." id="name">
+                            <input type="email" placeholder="Email..." id="email">
+                            <textarea cols="30" rows="10" placeholder="Message..." id="message"></textarea>
+
+                            <button>Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- EndContact Page -->
+
+            <div class="point">
+                <span id="1st_page"></span>
+                <span id="2nd_page"></span>
+                <span id="3rd_page"></span>
+                <span id="4th page"></span>
+            </div>
+
+        </div>
+        <div class="footer"><span>Design & Developed By <a href="https://www.instagram.com/thechandrapalsinghrajput"
+                    target="_blank">Lucifer</a></span></div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="style/script.js" defer></script>
+</body>
+
+</html>
