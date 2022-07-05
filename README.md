@@ -1,3 +1,3 @@
 My Protfolio Website
 
-https://chandrapalsingh12.github.io/chandrapalsingh/#
+https://chandrapalsingh12.github.io/chandrapalsingh
